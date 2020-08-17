@@ -11,7 +11,7 @@ class TestAddNewMember(BaseClass):
 
     def test_addNewMember(self):
         ng = MembersPage(self.driver)
-        ng.test_addValidMember("testQAaditya@gmail.com", "TestAditya", "TestBhoyar")
+        ng.test_addValidMember("adi12.bhoyar@gmail.com", "Aditya", "Bhoyar")
 
 
 

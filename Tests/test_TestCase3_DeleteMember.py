@@ -12,7 +12,7 @@ class TestDeleteNewMember(BaseClass):
     def test_searchMember(self):
         ng = MembersPage(self.driver)
         ng.test_navigateMembersTab()
-        ng.test_searchAndSelectMember("testQAaditya@gmail.com")
+        ng.test_searchAndSelectMember("adi12.bhoyar@gmail.com")
 
     def test_deleteSearchMember(self):
         ss = MembersPage(self.driver)
